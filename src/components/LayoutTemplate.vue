@@ -86,7 +86,7 @@ export default {
           icon: "mdi-hand-heart-outline",
           to: "/merchandise",
         },
-        // { title: "Temp", icon: "mdi-temp", to: "/temp" },
+        { title: "Album", icon: "mdi-album", to: "/album" },
       ],
     };
   },

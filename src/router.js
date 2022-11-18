@@ -27,14 +27,14 @@ const router = new VueRouter({
           component: importView("MerchandisePage"),
         },
 
-        // {
-        //   path: "/temp",
-        //   name: "Temp",
-        //   meta: {
-        //     title: "Vuefire 2022",
-        //   },
-        //   component: importView("TempPage"),
-        // },
+        {
+          path: "/album",
+          name: "Album",
+          meta: {
+            title: "Vuefire 2022",
+          },
+          component: importView("AlbumPage"),
+        },
       ],
     },
   ],
