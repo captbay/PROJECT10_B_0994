@@ -87,6 +87,7 @@ export default {
           to: "/merchandise",
         },
         { title: "Album", icon: "mdi-album", to: "/album" },
+        { title: "Product", icon: "mdi-gift", to: "/product" },
       ],
     };
   },
